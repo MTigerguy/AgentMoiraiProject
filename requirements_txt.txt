@@ -1,0 +1,35 @@
+# Desktop To-Do Widget Requirements
+# Python 3.6+ required
+
+# Core Requirements
+# tkinter is included with most Python installations
+# No external packages required!
+
+# The application uses only Python standard library modules:
+# - tkinter: GUI framework (included with Python)
+# - datetime: Date/time handling (standard library)
+# - json: Data persistence (standard library)
+# - os: Operating system interface (standard library)
+# - pathlib: File path handling (standard library)
+
+# Optional: For creating standalone executable (not required to run)
+# Uncomment the following lines if you want to build an .exe file:
+
+# pyinstaller==6.3.0  # For creating Windows .exe files
+
+# To create an executable (optional):
+# pip install pyinstaller
+# pyinstaller --onefile --windowed todo_widget.py
+
+# Optional: For enhanced UI (future versions)
+# Uncomment if you want to experiment with enhanced features:
+
+# ttkthemes==3.2.2  # For modern themes
+# Pillow==10.1.0    # For icons and images
+
+# Development tools (optional)
+# Uncomment for development:
+
+# black==23.12.1     # Code formatter
+# pylint==3.0.3      # Code linter
+# pytest==7.4.4      # Testing framework
